@@ -246,20 +246,23 @@ body {
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    			<form action="https://formsubmit.co/eflex9jamedia@gmail.com" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
+							<input type="hidden" name="_captcha" value="false">
+							<input type="hidden" name="_autoresponse" value="Thank you so much for reaching out to me. Be rest assured that, I will respond to your message within 5minutes.">
+							<input type="hidden" name="_next" value="https://jayjassentech.github.io/delivered.html">
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="message" placeholder="Message..." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
